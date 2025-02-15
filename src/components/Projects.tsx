@@ -8,26 +8,26 @@ const projects = [
     description: "A full-stack e-commerce platform built with React, Node.js, and MongoDB",
     image: "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=1000",
     tags: ["React", "Node.js", "MongoDB", "Express"],
-    liveLink: "https://example.com",
-    githubLink: "https://github.com",
+    liveLink: "https://astonishing-fairy-eb128d.netlify.app/",
+    githubLink: "https://github.com/ak4shyadav/ecommerce",
     longDescription: "An advanced e-commerce platform featuring user authentication, product management, shopping cart functionality, and secure payment integration. Built with React for the frontend, Node.js and Express for the backend, and MongoDB for the database."
   },
   {
-    title: "Task Management App",
-    description: "A collaborative task management application with real-time updates",
+    title: "Finance Management App",
+    description: "A collaborative finance management application with real-time tracking, automated analysis, and financial report generation.",
     image: "https://images.unsplash.com/photo-1540350394557-8d14678e7f91?auto=format&fit=crop&q=80&w=1000",
     tags: ["React", "TypeScript", "Tailwind", "Firebase"],
-    liveLink: "https://example.com",
-    githubLink: "https://github.com",
-    longDescription: "A comprehensive task management solution that allows teams to collaborate in real-time. Features include drag-and-drop task organization, real-time updates, and team chat functionality."
+    liveLink: "https://resplendent-klepon-5c101d.netlify.app/",
+    githubLink: "https://github.com/ak4shyadav/FinAI",
+    longDescription: "A comprehensive finance management solution that helps individuals and businesses track their expenses, manage budgets, and monitor financial goals. Features include real-time expense tracking, automated budget analysis, and financial report generation."
   },
   {
     title: "Weather Dashboard",
     description: "A weather forecasting application with interactive maps",
     image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?auto=format&fit=crop&q=80&w=1000",
     tags: ["React", "APIs", "Charts.js", "Tailwind"],
-    liveLink: "https://example.com",
-    githubLink: "https://github.com",
+    liveLink: "https://venerable-crumble-f2e904.netlify.app/",
+    githubLink: "https://github.com/ak4shyadav/weatherapp",
     longDescription: "An interactive weather dashboard that provides detailed weather forecasts, interactive maps, and historical weather data visualization. Built using React and integrates with multiple weather APIs."
   }
 ];

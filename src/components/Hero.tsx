@@ -13,14 +13,14 @@ export default function Hero() {
         transition={{ duration: 0.8 }}
         className="text-center z-10 px-4"
       >
-         <motion.img
-        src={profilePic} // Change this to your profile image path
-        alt="Profile"
-        className="w-42 h-32 md:w-40 md:h-40 rounded-full border-4 border-white shadow-lg ml-20"
-        initial={{ scale: 0.5, opacity: 0 }}
-        animate={{ scale: 1, opacity: 1 }}
-        transition={{ duration: 0.5 }}
-      />
+        <motion.img
+          src={profilePic} 
+          alt="Profile"
+          className="w-42 h-32 md:w-40 md:h-40 rounded-full border-4 border-white shadow-lg ml-20"
+          initial={{ scale: 0.5, opacity: 0 }}
+          animate={{ scale: 1, opacity: 1 }}
+          transition={{ duration: 0.5 }}
+        />
         <motion.h1 
           className="text-6xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 text-transparent bg-clip-text"
           initial={{ scale: 0.5 }}
@@ -44,13 +44,13 @@ export default function Hero() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.4 }}
         >
-          <a href="https://github.com" className="text-gray-600 hover:text-gray-900 transition-colors">
+          <a href="https://github.com/ak4shyadav" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 transition-colors">
             <Github size={24} />
           </a>
-          <a href="https://linkedin.com" className="text-gray-600 hover:text-gray-900 transition-colors">
+          <a href="https://www.linkedin.com/in/ak4shyadav" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 transition-colors">
             <Linkedin size={24} />
           </a>
-          <a href="mailto:akash@example.com" className="text-gray-600 hover:text-gray-900 transition-colors">
+          <a href="mailto:ak4shyadav@gmail.com" className="text-gray-600 hover:text-gray-900 transition-colors">
             <Mail size={24} />
           </a>
         </motion.div>
