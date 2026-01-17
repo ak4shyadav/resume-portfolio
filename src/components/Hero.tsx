@@ -11,12 +11,13 @@ export default function Hero() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="text-center z-10 px-4"
+        className="text-center z-10 px-4 flex flex-col items-center"
+
       >
         <motion.img
           src={profilePic} 
           alt="Profile"
-          className="w-42 h-32 md:w-40 md:h-40 rounded-full border-4 border-white shadow-lg ml-20"
+          className="mx-auto w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-white shadow-lg"
           initial={{ scale: 0.5, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 0.5 }}
